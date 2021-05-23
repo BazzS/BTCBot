@@ -4,7 +4,7 @@ from telebot import types
 import requests
 import json
 
-bot = telebot.TeleBot('1561717841:AAGQjUMbsdwMtQQAgobrq0k8H-hx_GDCX0c')
+bot = telebot.TeleBot('....')
 
 a = requests.get('https://blockchain.info/ticker').json()
 btcusd = a['USD']['15m']
