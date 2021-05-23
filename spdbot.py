@@ -5,7 +5,7 @@ import requests
 import json
 from bs4 import BeautifulSoup
 
-bot = telebot.TeleBot('1681259984:AAE3HEwA5r4ooMpkXV1EcmY4HizaH_OUqZw')
+bot = telebot.TeleBot('....')
 
 url = 'https://admin.myfin.by/outer/informer/minsk/full' # url страницы
 r = requests.get(url,headers={
